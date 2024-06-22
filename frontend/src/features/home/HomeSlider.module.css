@@ -1,0 +1,28 @@
+.container {
+    margin-top: 50px;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper button {
+    all: unset;
+    cursor: pointer;
+    padding: 16px 16px;
+}
+
+.movieDiv {
+    width: 330px;
+    height: 200px;
+
+    background-color: #9ac8cd;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    column-gap: 8.4px;
+}

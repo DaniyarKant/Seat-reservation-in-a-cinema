@@ -1,0 +1,71 @@
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+}
+
+.container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapperLeft,
+.wrapperRight {
+    flex: 1;
+}
+
+.wrapperLeft {
+    padding-right: 20px;
+}
+
+.wrapperRight {
+    padding-left: 20px;
+}
+
+.wrapperLabel {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.wrapperInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.wrapperInput:focus {
+    border-color: dodgerblue;
+}
+
+.wrapperButton {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+.wrapperButton:hover {
+    background-color: #007bff;
+}
